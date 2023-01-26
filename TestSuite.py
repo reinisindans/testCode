@@ -1,7 +1,23 @@
 import Tests
 import TestObjects
 
+# testCase has to be an implementation of test interface, with implemented function .testAll()
+# This function prints the test results in human readable format
+def reportResults(testCase):
+    results= testCase.testAll()
+    failedTests=[k for k, v in results.items() if v ==False]
+    passedTests=[k for k, v in results.items() if v ==True]
+    print("\nTests passed: ", len(passedTests))
+    print("Tests FAILED: ", len(failedTests))
+    if (len(failedTests)>0):
+        print("\nFAILED Tests:")
+        for test in failedTests:
+            print(test)
+
+# Setting up the test cases for demonstration purposes
 validTestCase=Tests.FlexPurTest(TestObjects.flexPur_true)
+
+invalidTestCase= Tests.FlexPurTest(TestObjects.flexPur_false)
 
 notJSONCase= Tests.FlexPurTest(TestObjects.flexPur_notJson)
 
@@ -9,44 +25,12 @@ missingKeysCase=Tests.FlexPurTest(TestObjects.flexPur_missingKeys)
 
 wrongKeyNameCase=Tests.FlexPurTest(TestObjects.flexPur_wrongKeyNames)
 
-invalidTestCase= Tests.FlexPurTest(TestObjects.flexPur_false)
+
+# Prints out the test results
+#reportResults(validTestCase)
+#reportResults(invalidTestCase)
+#reportResults(notJSONCase)
+#reportResults(missingKeysCase)
+reportResults(wrongKeyNameCase)
 
 
-"""
-print ("Testing if is JSON (True): ", validTestCase.isJSON_test())
-print ("Testing if is JSON (False): ", notJSONCase.isJSON_test())
-
-print()
-print ("Testing objectkeyTest (True): ", validTestCase.objectKey_test())
-print ("Testing objectkeyTest (False, missingKeys): ", missingKeysCase.objectKey_test())
-print ("Testing objectkeyTest (False, wrongKeyNames): ", wrongKeyNameCase.objectKey_test())
-
-print()
-print ("Testing bidLinkingAllowed (True): ", validTestCase.bidLinking_test())
-print ("Testing bidLinkingAllowed (False): ", invalidTestCase.bidLinking_test())
-
-print()
-print ("Testing closeDate_test (True): ", validTestCase.closeDate_test())
-print ("Testing closeDate_test (False): ", invalidTestCase.closeDate_test())
-
-
-
-print()
-print ("Testing deliveryStartDate_test (True): ", validTestCase.deliveryStartDate_test())
-print ("Testing deliveryStartDate_test (False): ", invalidTestCase.deliveryStartDate_test())
-
-
-print()
-print ("Testing deliveryEndDate_test (True): ", validTestCase.deliveryEndDate_test())
-print ("Testing deliveryEndDate_test (False): ", invalidTestCase.deliveryEndDate_test())
-
-
-print()
-print ("Testing direction_test (True): ", validTestCase.direction_test())
-print ("Testing direction_test (False): ", invalidTestCase.direction_test())
-
-"""
-
-print()
-print ("Testing gateClosureDuration_test (True): ", validTestCase.gateClosureDuration_test())
-print ("Testing gateClosureDuration_test (False): ", invalidTestCase.gateClosureDuration_test())
