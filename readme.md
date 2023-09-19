@@ -41,12 +41,11 @@
                 </tr>
                 </table><br><h5 style='color: black; text-align: left; '>Objekta apakštipi</h5>
             <table style='width: 180mm; border: 1px solid black; border-collapse: collapse; padding: 5px; '>
-                <thead>
+
                     <tr>
                         <th style='text-align: left; background-color: #d3d3d3; width: 40mm; border: 1px solid black; padding: 5px; '>Vērtība</th>
                         <th style='text-align: left; background-color: #d3d3d3; width: 40mm; border: 1px solid black; padding: 5px; '>Apraksts</th>
                     <tr>
-                </thead>
                 
             <tr>
                 <td style='text-align: left; background-color: #ffffff; width: 90mm; border: 1px solid black; padding: 5px; '>1</td>
