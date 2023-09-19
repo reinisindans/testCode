@@ -63,13 +63,13 @@
             </tr>
             </table><br><h5 style='color: black; text-align: left; '>Relācijas</h5>
             <table style='width: 180mm; border: 1px solid black; border-collapse: collapse; padding: 5px; '>
-                <thead>
+               
                     <tr>
                         <th style='text-align: left; background-color: #d3d3d3; width: 40mm; border: 1px solid black; padding: 5px; '>Datu objekts</th>
                         <th style='text-align: left; background-color: #d3d3d3; width: 40mm; border: 1px solid black; padding: 5px; '>Atslēgas atribūti</th>
                         <th style='text-align: left; background-color: #d3d3d3; width: 25mm; border: 1px solid black; padding: 5px; '>Kardinalitāte</th>
                     <tr>
-                <thead>
+                
                 
             <tr>
                 <td style='text-align: left; background-color: #ffffff; width: 40mm; border: 1px solid black; padding: 5px; '> Biotopa apsaimniekošana (VMDBIOAPSAIMNIEKOSANA)</td>
