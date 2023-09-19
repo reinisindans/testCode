@@ -14,12 +14,14 @@
             </table>
             <br>
             <h3 style='color: lightblue; font-size: 18px; text-align: left; ' id='VMDBIOTOPI'> Biotops [Elementu klase]</h3>
-        <table style=' border: 1px solid black; border-collapse: collapse; padding: 5px; '>    
+        <table style='border: 1px solid black; border-collapse: collapse; padding: 5px; '>    
                 <tr>
                     <td style='text-align: left; background-color: #d3d3d3; width: 85mm; border: 1px solid black; padding: 5px; '>Nosaukums DB</td>
                     <td style='text-align: left; background-color: #ffffff; width: 85mm; border: 1px solid black; padding: 5px; '>VMDBIOTOPI</td>
                 </tr>
-                
+        </table>
+
+        <table>
                 <tr>
                     <td style='text-align: left; background-color: #d3d3d3; width: 85mm; border: 1px solid black; padding: 5px; '>Objekta tips</td>
                     <td style='text-align: left; background-color: #ffffff; width: 85mm; border: 1px solid black; padding: 5px; '>Elementu klase</td>
