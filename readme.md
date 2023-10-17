@@ -1,9 +1,4 @@
 
-[_TOC_]
-
-
-
-
  Database schema description
 ============================
 
