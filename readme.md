@@ -4072,7 +4072,7 @@
 | Shape.STLength() | Double | Shape.STLength() |  |  | Yes |
 
   
-###  -Naturreservat- \[Feature class\]<a id="NatureReserve"></a>
+###  LIFNatureNotes
 
 
 
