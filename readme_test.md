@@ -74,11 +74,11 @@
 
 ####  [Biokoncentrācijas vietu infrastruktūras tips](#-biokoncentrācijas-vietu-infrastruktūras-tips--klasifikators)
 
-####  [Biotopa atslēgas elementu veidi (Ar apjomu un sugu)](#-biotopa-atslēgas-elementu-veidi-(ar-apjomu-un-sugu)--klasifikators)
+####  [Biotopa atslēgas elementu veidi (Ar apjomu un sugu)](#-biotopa-atslēgas-elementu-veidi--ar-apjomu-un-sugu---klasifikators)
 
-####  [Biotopa atslēgas elementu veidi (Ar apjomu)](#-biotopa-atslēgas-elementu-veidi-(ar-apjomu)--klasifikators)
+####  [Biotopa atslēgas elementu veidi (Ar apjomu)](#-biotopa-atslēgas-elementu-veidi--ar-apjomu---klasifikators)
 
-####  [Biotopa atslēgas elementu veidi (Bez apjoma)](#-biotopa-atslēgas-elementu-veidi-(bez-apjoma)--klasifikators)
+####  [Biotopa atslēgas elementu veidi (Bez apjoma)](#-biotopa-atslēgas-elementu-veidi--bez-apjoma---klasifikators)
 
 ####  [Biotopa indikatoru sugu sastopamība](#-biotopa-indikatoru-sugu-sastopamība--klasifikators)
 
@@ -136,7 +136,7 @@
 
 ###  [Vērtību robežas](#-vērtību-robežas-)
 
-####  [Procenti (0-100%)](#-procenti-(0-100%)--vērtību-robežas)
+####  [Procenti (0-100%)](#-procenti--0-100%---vērtību-robežas)
 
  -VMDData- [Datu kopa]
 ----------------------
@@ -771,7 +771,7 @@
 | Unikālais identifikators | Garais skaitlis | BioAtslegas\_Elementi\_ID | 10 |  |  |
 | Atslēgas elementa apakštips | Garais skaitlis | BioAtslegas\_Elementi\_ST | 10 | 1 |  |
 | Sasaiste ar BIOTOPI | Garais skaitlis | Bio\_ID | 10 |  |  |
-| Atslēgas elementa veids | [VMD\_030\_Bioelementa\_Veidi\_I](#-biotopa-atslēgas-elementu-veidi-(bez-apjoma)--klasifikators) 1: Dažādvecuma audze; 2: Atvērumu vainaga klājā / lauces; 3: Pašizretināšanās; 4: Pastāvīgi pārplūstoši klajumi; 5: Īslaicīgi pārplūstoši klajumi; 6: Mirusi koksne dažās sadal. pakāpēs; 7: Mirusi koksne vairākās sadal. pakāpēs; 8: Daudz koksnes sēņu / piepju; 9: Daudz vecu lazdu;... | ElemV\_Type | 3 |  |  |
+| Atslēgas elementa veids | [VMD\_030\_Bioelementa\_Veidi\_I](#-biotopa-atslēgas-elementu-veidi--bez-apjoma---klasifikators) 1: Dažādvecuma audze; 2: Atvērumu vainaga klājā / lauces; 3: Pašizretināšanās; 4: Pastāvīgi pārplūstoši klajumi; 5: Īslaicīgi pārplūstoši klajumi; 6: Mirusi koksne dažās sadal. pakāpēs; 7: Mirusi koksne vairākās sadal. pakāpēs; 8: Daudz koksnes sēņu / piepju; 9: Daudz vecu lazdu;... | ElemV\_Type | 3 |  |  |
 | Atslēgas elementa apjoms | [VMD\_035\_Bioelementa\_Veida\_Apjoms](#-bioelementu-veida-apjomi--klasifikators) -1: Nav Zināms; 1: 1-5; 2: 6-10; 3: >10; 0: Nav definēts; | Apjoms\_Type | 3 |  |  |
 
   
@@ -1106,7 +1106,7 @@
 | --- | --- |
 | Nosaukums DB | VMD\_000\_Boolean |
 | Vērtības | -1 - Nav zināms; 1 - Jā; 2 - Nē; 0 - Nav ievadīts;  |
-| Izmantots objektu klasēs: | Objektu klase:  [Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase) Elementu klase:  [Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase) Elementu klase:  [Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--elementu-klase)  |
+| Izmantots objektu klasēs: | Elementu klase:  [Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--elementu-klase) Elementu klase:  [Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase) Objektu klase:  [Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase)  |
 
    
 
@@ -1327,7 +1327,7 @@
 | --- | --- |
 | Nosaukums DB | VMD\_180\_Koku\_Sugas |
 | Vērtības | -1 - Nav zināms;  |
-| Izmantots objektu klasēs: | Objektu klase:  [Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase) Objektu klase:  [Biotopa audzes raksturojumi](#-biotopa-audzes-raksturojumi--objektu-klase) Objektu klase:  [Biotopa atslēgas elementu sugas](#-biotopa-atslēgas-elementu-sugas--objektu-klase)  |
+| Izmantots objektu klasēs: | Objektu klase:  [Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase) Objektu klase:  [Biotopa atslēgas elementu sugas](#-biotopa-atslēgas-elementu-sugas--objektu-klase) Objektu klase:  [Biotopa audzes raksturojumi](#-biotopa-audzes-raksturojumi--objektu-klase)  |
 
    
 
@@ -1470,7 +1470,7 @@
 | --- | --- |
 | Nosaukums DB | VMD\_093\_UgunsAtklType |
 | Vērtības | 1 - No torņa; 2 - Ziņo trešā persona; 3 - Ziņo VUGD;  |
-| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--elementu-klase) Objektu klase:  [Ugunsgrēki](#-ugunsgrēki--objektu-klase) Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--elementu-klase)  |
+| Izmantots objektu klasēs: | Objektu klase:  [Ugunsgrēki](#-ugunsgrēki--objektu-klase) Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--elementu-klase) Elementu klase:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--elementu-klase)  |
 
    
 
@@ -1483,7 +1483,7 @@
 | --- | --- |
 | Nosaukums DB | VMD\_090\_Ugunsceloni |
 | Vērtības | -1 - Nav zināms;  |
-| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--elementu-klase) Objektu klase:  [Ugunsgrēki](#-ugunsgrēki--objektu-klase) Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--elementu-klase)  |
+| Izmantots objektu klasēs: | Objektu klase:  [Ugunsgrēki](#-ugunsgrēki--objektu-klase) Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--elementu-klase) Elementu klase:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--elementu-klase)  |
 
    
 
