@@ -184,14 +184,14 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotopa apsaimniekošana (VMDBIOAPSAIMNIEKOSANA)](#-biotopa-apsaimniekošana--objektu-klase)  | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
-|  [Biotopa atslēgas elementi (VMDBIOATSLEGASELEMENTI)](#-biotopa-atslēgas-elementi--objektu-klase)  | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa atslēgas elementi](#-biotopa-atslēgas-elementi--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
-|  [Biotopa negatīvi traucējumi (VMDBIONEGATIVITRAUC)](#-biotopa-negatīvi-traucējumi--objektu-klase)  | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa negatīvi traucējumi](#-biotopa-negatīvi-traucējumi--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
-|  [Vides aizsardzības pazīmes (VMDVAPAZIMES)](#-vides-aizsardzības-pazīmes--elementu-klase) | [[Vides aizsardzības pazīmes](#-vides-aizsardzības-pazīmes--elementu-klase)].[Unikālais identifikators]  -> [[Biotops](#-biotops--elementu-klase)].[Sasaiste ar vides aizsardzības klasifikatora pazīmēm] | 1:N |
-|  [Biotopa audzes raksturojumi (VMDBIOAUDZESRAKSTUROJUM)](#-biotopa-audzes-raksturojumi--objektu-klase)  | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa audzes raksturojumi](#-biotopa-audzes-raksturojumi--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
-|  [Biotopa indikatoru sugas (VMDBIOINDIKATORUSUGAS)](#-biotopa-indikatoru-sugas--objektu-klase)  | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa indikatoru sugas](#-biotopa-indikatoru-sugas--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
-|  [Biotopa īpašās iezīmes (VMDBIOIEZIMES)](#-biotopa-īpašās-iezīmes--objektu-klase)  | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa īpašās iezīmes](#-biotopa-īpašās-iezīmes--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
-|  [Biotopu koncentrācijas vieta (VMDBIOKONCENTRACIJA)](#-biotopu-koncentrācijas-vieta--elementu-klase) | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators] -> [[RC\_BIO\_KONC\_LINK](#-rc_bio_konc_link--relāciju-klase)].[Biotopa identifikators (sasaistei)][[Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--elementu-klase)].[Unikālais identifikators]  -> [[Biotops](#-biotops--elementu-klase)].[Koncentrācijas vietas identifikators (sasaistei)] | N:N |
+|  [Biotopa apsaimniekošana (VMDBIOAPSAIMNIEKOSANA)](#-biotopa-apsaimniekošana--objektu-klase)  | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
+|  [Biotopa atslēgas elementi (VMDBIOATSLEGASELEMENTI)](#-biotopa-atslēgas-elementi--objektu-klase)  | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa atslēgas elementi](#-biotopa-atslēgas-elementi--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
+|  [Biotopa negatīvi traucējumi (VMDBIONEGATIVITRAUC)](#-biotopa-negatīvi-traucējumi--objektu-klase)  | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa negatīvi traucējumi](#-biotopa-negatīvi-traucējumi--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
+|  [Vides aizsardzības pazīmes (VMDVAPAZIMES)](#-vides-aizsardzības-pazīmes--elementu-klase) | [Vides aizsardzības pazīmes](#-vides-aizsardzības-pazīmes--elementu-klase).Unikālais identifikators  -> [Biotops](#-biotops--elementu-klase).Sasaiste ar vides aizsardzības klasifikatora pazīmēm | 1:N |
+|  [Biotopa audzes raksturojumi (VMDBIOAUDZESRAKSTUROJUM)](#-biotopa-audzes-raksturojumi--objektu-klase)  | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa audzes raksturojumi](#-biotopa-audzes-raksturojumi--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
+|  [Biotopa indikatoru sugas (VMDBIOINDIKATORUSUGAS)](#-biotopa-indikatoru-sugas--objektu-klase)  | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa indikatoru sugas](#-biotopa-indikatoru-sugas--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
+|  [Biotopa īpašās iezīmes (VMDBIOIEZIMES)](#-biotopa-īpašās-iezīmes--objektu-klase)  | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa īpašās iezīmes](#-biotopa-īpašās-iezīmes--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
+|  [Biotopu koncentrācijas vieta (VMDBIOKONCENTRACIJA)](#-biotopu-koncentrācijas-vieta--elementu-klase) | [Biotops](#-biotops--elementu-klase).Unikālais identifikators -> [RC\_BIO\_KONC\_LINK](#-rc_bio_konc_link--relāciju-klase).Biotopa identifikators (sasaistei)[Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--elementu-klase).Unikālais identifikators  -> [Biotops](#-biotops--elementu-klase).Koncentrācijas vietas identifikators (sasaistei) | N:N |
 
   
 ##### Datu objekta atribūti
@@ -247,7 +247,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase)  | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators] -> [[RC\_BIO\_KONC\_LINK](#-rc_bio_konc_link--relāciju-klase)].[Biotopa identifikators (sasaistei)][[Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--elementu-klase)].[Unikālais identifikators]  -> [[Biotops](#-biotops--elementu-klase)].[Koncentrācijas vietas identifikators (sasaistei)] | N:N |
+|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase)  | [Biotops](#-biotops--elementu-klase).Unikālais identifikators -> [RC\_BIO\_KONC\_LINK](#-rc_bio_konc_link--relāciju-klase).Biotopa identifikators (sasaistei)[Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--elementu-klase).Unikālais identifikators  -> [Biotops](#-biotops--elementu-klase).Koncentrācijas vietas identifikators (sasaistei) | N:N |
 
   
 ##### Datu objekta atribūti
@@ -296,7 +296,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Ugunsgrēki (VMDUGUNSGREKI)](#-ugunsgrēki--objektu-klase) | [[Ugunsgrēki](#-ugunsgrēki--objektu-klase)].[Unikālais identifikators]  -> [[Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--elementu-klase)].[Sasaiste ar UGUNSGREKI] | 1:N |
+|  [Ugunsgrēki (VMDUGUNSGREKI)](#-ugunsgrēki--objektu-klase) | [Ugunsgrēki](#-ugunsgrēki--objektu-klase).Unikālais identifikators  -> [Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--elementu-klase).Sasaiste ar UGUNSGREKI | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -340,7 +340,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Ugunsgrēki (VMDUGUNSGREKI)](#-ugunsgrēki--objektu-klase) | [[Ugunsgrēki](#-ugunsgrēki--objektu-klase)].[Unikālais identifikators]  -> [[Ugunsgrēka vieta](#-ugunsgrēka-vieta--elementu-klase)].[Sasaiste ar UGUNSGREKI] | 1:N |
+|  [Ugunsgrēki (VMDUGUNSGREKI)](#-ugunsgrēki--objektu-klase) | [Ugunsgrēki](#-ugunsgrēki--objektu-klase).Unikālais identifikators  -> [Ugunsgrēka vieta](#-ugunsgrēka-vieta--elementu-klase).Sasaiste ar UGUNSGREKI | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -414,8 +414,8 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Vides aizsardzības ierobežojumi (VMDVAIEROBEZOJUMI)](#-vides-aizsardzības-ierobežojumi--objektu-klase)  | [[Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase)].[Unikālais identifikators]  -> [[Vides aizsardzības ierobežojumi](#-vides-aizsardzības-ierobežojumi--objektu-klase)].[Sasaiste ar VA klasifikatoru] | 1:N |
-|  [Vides aizsardzības pazīmes (VMDVAPAZIMES)](#-vides-aizsardzības-pazīmes--elementu-klase)  | [[Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase)].[Unikālais identifikators]  -> [[Vides aizsardzības pazīmes](#-vides-aizsardzības-pazīmes--elementu-klase)].[Sasaiste ar VA\_KLASIFIKATORS] | 1:N |
+|  [Vides aizsardzības ierobežojumi (VMDVAIEROBEZOJUMI)](#-vides-aizsardzības-ierobežojumi--objektu-klase)  | [Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase).Unikālais identifikators  -> [Vides aizsardzības ierobežojumi](#-vides-aizsardzības-ierobežojumi--objektu-klase).Sasaiste ar VA klasifikatoru | 1:N |
+|  [Vides aizsardzības pazīmes (VMDVAPAZIMES)](#-vides-aizsardzības-pazīmes--elementu-klase)  | [Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase).Unikālais identifikators  -> [Vides aizsardzības pazīmes](#-vides-aizsardzības-pazīmes--elementu-klase).Sasaiste ar VA\_KLASIFIKATORS | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -457,8 +457,8 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Vides aizsardzības klasifikators (VMDVAKLASIFIKATORS)](#-vides-aizsardzības-klasifikators--elementu-klase) | [[Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase)].[Unikālais identifikators]  -> [[Vides aizsardzības pazīmes](#-vides-aizsardzības-pazīmes--elementu-klase)].[Sasaiste ar VA\_KLASIFIKATORS] | 1:N |
-|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase)  | [[Vides aizsardzības pazīmes](#-vides-aizsardzības-pazīmes--elementu-klase)].[Unikālais identifikators]  -> [[Biotops](#-biotops--elementu-klase)].[Sasaiste ar vides aizsardzības klasifikatora pazīmēm] | 1:N |
+|  [Vides aizsardzības klasifikators (VMDVAKLASIFIKATORS)](#-vides-aizsardzības-klasifikators--elementu-klase) | [Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase).Unikālais identifikators  -> [Vides aizsardzības pazīmes](#-vides-aizsardzības-pazīmes--elementu-klase).Sasaiste ar VA\_KLASIFIKATORS | 1:N |
+|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase)  | [Vides aizsardzības pazīmes](#-vides-aizsardzības-pazīmes--elementu-klase).Unikālais identifikators  -> [Biotops](#-biotops--elementu-klase).Sasaiste ar vides aizsardzības klasifikatora pazīmēm | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -631,8 +631,8 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
-|  [Biotopa apsaimniekošana – izcērtama suga (VMDBIOIZCERTAMASUGA)](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase)  | [[Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase)].[Unikālais identifikators]  -> [[Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase)].[Sasaiste ar BIOAPSAIMNIEKOSANA] | 1:N |
+|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
+|  [Biotopa apsaimniekošana – izcērtama suga (VMDBIOIZCERTAMASUGA)](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase)  | [Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase).Unikālais identifikators  -> [Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase).Sasaiste ar BIOAPSAIMNIEKOSANA | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -671,8 +671,8 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotopa apsaimniekošana – sugas izcirtes apjomi (VMDBIOIZCERTAMIAPJOMI)](#-biotopa-apsaimniekošana-–-sugas-izcirtes-apjomi--objektu-klase)  | [[Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase)].[Unikālais identifikators]  -> [[Biotopa apsaimniekošana – sugas izcirtes apjomi](#-biotopa-apsaimniekošana-–-sugas-izcirtes-apjomi--objektu-klase)].[Sasaiste ar BIOIZCERTAMA\_SUGA] | 1:N |
-|  [Biotopa apsaimniekošana (VMDBIOAPSAIMNIEKOSANA)](#-biotopa-apsaimniekošana--objektu-klase) | [[Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase)].[Unikālais identifikators]  -> [[Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase)].[Sasaiste ar BIOAPSAIMNIEKOSANA] | 1:N |
+|  [Biotopa apsaimniekošana – sugas izcirtes apjomi (VMDBIOIZCERTAMIAPJOMI)](#-biotopa-apsaimniekošana-–-sugas-izcirtes-apjomi--objektu-klase)  | [Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase).Unikālais identifikators  -> [Biotopa apsaimniekošana – sugas izcirtes apjomi](#-biotopa-apsaimniekošana-–-sugas-izcirtes-apjomi--objektu-klase).Sasaiste ar BIOIZCERTAMA\_SUGA | 1:N |
+|  [Biotopa apsaimniekošana (VMDBIOAPSAIMNIEKOSANA)](#-biotopa-apsaimniekošana--objektu-klase) | [Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase).Unikālais identifikators  -> [Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase).Sasaiste ar BIOAPSAIMNIEKOSANA | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -708,7 +708,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotopa apsaimniekošana – izcērtama suga (VMDBIOIZCERTAMASUGA)](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase) | [[Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase)].[Unikālais identifikators]  -> [[Biotopa apsaimniekošana – sugas izcirtes apjomi](#-biotopa-apsaimniekošana-–-sugas-izcirtes-apjomi--objektu-klase)].[Sasaiste ar BIOIZCERTAMA\_SUGA] | 1:N |
+|  [Biotopa apsaimniekošana – izcērtama suga (VMDBIOIZCERTAMASUGA)](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase) | [Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase).Unikālais identifikators  -> [Biotopa apsaimniekošana – sugas izcirtes apjomi](#-biotopa-apsaimniekošana-–-sugas-izcirtes-apjomi--objektu-klase).Sasaiste ar BIOIZCERTAMA\_SUGA | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -756,8 +756,8 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa atslēgas elementi](#-biotopa-atslēgas-elementi--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
-|  [Biotopa atslēgas elementu sugas (VMDBIOELEMENTASUGAS)](#-biotopa-atslēgas-elementu-sugas--objektu-klase)  | [[Biotopa atslēgas elementi](#-biotopa-atslēgas-elementi--objektu-klase)].[Unikālais identifikators]  -> [[Biotopa atslēgas elementu sugas](#-biotopa-atslēgas-elementu-sugas--objektu-klase)].[Atslēgas identifikators (sasaistei)] | 1:N |
+|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa atslēgas elementi](#-biotopa-atslēgas-elementi--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
+|  [Biotopa atslēgas elementu sugas (VMDBIOELEMENTASUGAS)](#-biotopa-atslēgas-elementu-sugas--objektu-klase)  | [Biotopa atslēgas elementi](#-biotopa-atslēgas-elementi--objektu-klase).Unikālais identifikators  -> [Biotopa atslēgas elementu sugas](#-biotopa-atslēgas-elementu-sugas--objektu-klase).Atslēgas identifikators (sasaistei) | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -793,7 +793,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotopa atslēgas elementi (VMDBIOATSLEGASELEMENTI)](#-biotopa-atslēgas-elementi--objektu-klase) | [[Biotopa atslēgas elementi](#-biotopa-atslēgas-elementi--objektu-klase)].[Unikālais identifikators]  -> [[Biotopa atslēgas elementu sugas](#-biotopa-atslēgas-elementu-sugas--objektu-klase)].[Atslēgas identifikators (sasaistei)] | 1:N |
+|  [Biotopa atslēgas elementi (VMDBIOATSLEGASELEMENTI)](#-biotopa-atslēgas-elementi--objektu-klase) | [Biotopa atslēgas elementi](#-biotopa-atslēgas-elementi--objektu-klase).Unikālais identifikators  -> [Biotopa atslēgas elementu sugas](#-biotopa-atslēgas-elementu-sugas--objektu-klase).Atslēgas identifikators (sasaistei) | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -826,7 +826,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa audzes raksturojumi](#-biotopa-audzes-raksturojumi--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
+|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa audzes raksturojumi](#-biotopa-audzes-raksturojumi--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -862,7 +862,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa indikatoru sugas](#-biotopa-indikatoru-sugas--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
+|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa indikatoru sugas](#-biotopa-indikatoru-sugas--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -897,7 +897,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa negatīvi traucējumi](#-biotopa-negatīvi-traucējumi--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
+|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa negatīvi traucējumi](#-biotopa-negatīvi-traucējumi--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -932,7 +932,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [[Biotops](#-biotops--elementu-klase)].[Unikālais identifikators]  -> [[Biotopa īpašās iezīmes](#-biotopa-īpašās-iezīmes--objektu-klase)].[Sasaiste ar BIOTOPI] | 1:N |
+|  [Biotops (VMDBIOTOPI)](#-biotops--elementu-klase) | [Biotops](#-biotops--elementu-klase).Unikālais identifikators  -> [Biotopa īpašās iezīmes](#-biotopa-īpašās-iezīmes--objektu-klase).Sasaiste ar BIOTOPI | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -968,9 +968,9 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Ugunsgrēka vieta (VMDUGUNSGREKPOINT)](#-ugunsgrēka-vieta--elementu-klase)  | [[Ugunsgrēki](#-ugunsgrēki--objektu-klase)].[Unikālais identifikators]  -> [[Ugunsgrēka vieta](#-ugunsgrēka-vieta--elementu-klase)].[Sasaiste ar UGUNSGREKI] | 1:N |
-|  [Ugunsgrēka teritorija (VMDUGUNSGREKPOLY)](#-ugunsgrēka-teritorija--elementu-klase)  | [[Ugunsgrēki](#-ugunsgrēki--objektu-klase)].[Unikālais identifikators]  -> [[Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--elementu-klase)].[Sasaiste ar UGUNSGREKI] | 1:N |
-|  [Ugunsgrēku platības uzskaite (VMDUGUNSPLATIBAS)](#-ugunsgrēku-platības-uzskaite--objektu-klase)  | [[Ugunsgrēki](#-ugunsgrēki--objektu-klase)].[Unikālais identifikators]  -> [[Ugunsgrēku platības uzskaite](#-ugunsgrēku-platības-uzskaite--objektu-klase)].[Identifikators sasaistei] | 1:N |
+|  [Ugunsgrēka vieta (VMDUGUNSGREKPOINT)](#-ugunsgrēka-vieta--elementu-klase)  | [Ugunsgrēki](#-ugunsgrēki--objektu-klase).Unikālais identifikators  -> [Ugunsgrēka vieta](#-ugunsgrēka-vieta--elementu-klase).Sasaiste ar UGUNSGREKI | 1:N |
+|  [Ugunsgrēka teritorija (VMDUGUNSGREKPOLY)](#-ugunsgrēka-teritorija--elementu-klase)  | [Ugunsgrēki](#-ugunsgrēki--objektu-klase).Unikālais identifikators  -> [Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--elementu-klase).Sasaiste ar UGUNSGREKI | 1:N |
+|  [Ugunsgrēku platības uzskaite (VMDUGUNSPLATIBAS)](#-ugunsgrēku-platības-uzskaite--objektu-klase)  | [Ugunsgrēki](#-ugunsgrēki--objektu-klase).Unikālais identifikators  -> [Ugunsgrēku platības uzskaite](#-ugunsgrēku-platības-uzskaite--objektu-klase).Identifikators sasaistei | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -1008,7 +1008,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Ugunsgrēki (VMDUGUNSGREKI)](#-ugunsgrēki--objektu-klase) | [[Ugunsgrēki](#-ugunsgrēki--objektu-klase)].[Unikālais identifikators]  -> [[Ugunsgrēku platības uzskaite](#-ugunsgrēku-platības-uzskaite--objektu-klase)].[Identifikators sasaistei] | 1:N |
+|  [Ugunsgrēki (VMDUGUNSGREKI)](#-ugunsgrēki--objektu-klase) | [Ugunsgrēki](#-ugunsgrēki--objektu-klase).Unikālais identifikators  -> [Ugunsgrēku platības uzskaite](#-ugunsgrēku-platības-uzskaite--objektu-klase).Identifikators sasaistei | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -1043,7 +1043,7 @@
 
 | Datu objekts | Atslēgas atribūti | Kardinalitāte |
 | --- | --- | --- |
-|  [Vides aizsardzības klasifikators (VMDVAKLASIFIKATORS)](#-vides-aizsardzības-klasifikators--elementu-klase) | [[Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase)].[Unikālais identifikators]  -> [[Vides aizsardzības ierobežojumi](#-vides-aizsardzības-ierobežojumi--objektu-klase)].[Sasaiste ar VA klasifikatoru] | 1:N |
+|  [Vides aizsardzības klasifikators (VMDVAKLASIFIKATORS)](#-vides-aizsardzības-klasifikators--elementu-klase) | [Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase).Unikālais identifikators  -> [Vides aizsardzības ierobežojumi](#-vides-aizsardzības-ierobežojumi--objektu-klase).Sasaiste ar VA klasifikatoru | 1:N |
 
   
 ##### Datu objekta atribūti
@@ -1106,7 +1106,7 @@
 | --- | --- |
 | Nosaukums DB | VMD\_000\_Boolean |
 | Vērtības | -1 - Nav zināms; 1 - Jā; 2 - Nē; 0 - Nav ievadīts;  |
-| Izmantots objektu klasēs: | Elementu klase:  [Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--elementu-klase) Elementu klase:  [Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase) Objektu klase:  [Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase)  |
+| Izmantots objektu klasēs: | Elementu klase:  [Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--elementu-klase) Objektu klase:  [Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--objektu-klase) Elementu klase:  [Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--elementu-klase)  |
 
    
 
@@ -1327,7 +1327,7 @@
 | --- | --- |
 | Nosaukums DB | VMD\_180\_Koku\_Sugas |
 | Vērtības | -1 - Nav zināms;  |
-| Izmantots objektu klasēs: | Objektu klase:  [Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase) Objektu klase:  [Biotopa atslēgas elementu sugas](#-biotopa-atslēgas-elementu-sugas--objektu-klase) Objektu klase:  [Biotopa audzes raksturojumi](#-biotopa-audzes-raksturojumi--objektu-klase)  |
+| Izmantots objektu klasēs: | Objektu klase:  [Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--objektu-klase) Objektu klase:  [Biotopa audzes raksturojumi](#-biotopa-audzes-raksturojumi--objektu-klase) Objektu klase:  [Biotopa atslēgas elementu sugas](#-biotopa-atslēgas-elementu-sugas--objektu-klase)  |
 
    
 
@@ -1470,7 +1470,7 @@
 | --- | --- |
 | Nosaukums DB | VMD\_093\_UgunsAtklType |
 | Vērtības | 1 - No torņa; 2 - Ziņo trešā persona; 3 - Ziņo VUGD;  |
-| Izmantots objektu klasēs: | Objektu klase:  [Ugunsgrēki](#-ugunsgrēki--objektu-klase) Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--elementu-klase) Elementu klase:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--elementu-klase)  |
+| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--elementu-klase) Objektu klase:  [Ugunsgrēki](#-ugunsgrēki--objektu-klase) Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--elementu-klase)  |
 
    
 
@@ -1483,7 +1483,7 @@
 | --- | --- |
 | Nosaukums DB | VMD\_090\_Ugunsceloni |
 | Vērtības | -1 - Nav zināms;  |
-| Izmantots objektu klasēs: | Objektu klase:  [Ugunsgrēki](#-ugunsgrēki--objektu-klase) Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--elementu-klase) Elementu klase:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--elementu-klase)  |
+| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--elementu-klase) Objektu klase:  [Ugunsgrēki](#-ugunsgrēki--objektu-klase) Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--elementu-klase)  |
 
    
 
