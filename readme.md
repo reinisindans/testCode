@@ -10,7 +10,7 @@
 
 ### [Activities](#Activities)
 
-####  [Röjning](#Clearing)
+####  [Röjning](#-art--object-class)
 
 ####  [Samråd](#Consultation)
 
