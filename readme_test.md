@@ -77,11 +77,11 @@ Version 1.2
 
 ####  [Biokoncentrācijas vietu infrastruktūras tips](#-biokoncentrācijas-vietu-infrastruktūras-tips--coded-value-domain)
 
-####  [Biotopa atslēgas elementu veidi (Ar apjomu un sugu)](#-biotopa-atslēgas-elementu-veidi--ar-apjomu-un-sugu---coded-value-domain)
+####  [Biotopa atslēgas elementu veidi (Ar apjomu un sugu)](#-biotopa-atslēgas-elementu-veidi-ar-apjomu-un-sugu--coded-value-domain)
 
-####  [Biotopa atslēgas elementu veidi (Ar apjomu)](#-biotopa-atslēgas-elementu-veidi--ar-apjomu---coded-value-domain)
+####  [Biotopa atslēgas elementu veidi (Ar apjomu)](#-biotopa-atslēgas-elementu-veidi-ar-apjomu--coded-value-domain)
 
-####  [Biotopa atslēgas elementu veidi (Bez apjoma)](#-biotopa-atslēgas-elementu-veidi--bez-apjoma---coded-value-domain)
+####  [Biotopa atslēgas elementu veidi (Bez apjoma)](#-biotopa-atslēgas-elementu-veidi-bez-apjoma--coded-value-domain)
 
 ####  [Biotopa indikatoru sugu sastopamība](#-biotopa-indikatoru-sugu-sastopamība--coded-value-domain)
 
@@ -139,7 +139,7 @@ Version 1.2
 
 ###  [Range domains](#-range-domains-)
 
-####  [Procenti (0-100%)](#-procenti--0-100%---range-domain)
+####  [Procenti (0-100%)](#-procenti-0-100%--range-domain)
 
  -VMDData- [Dataset]
 --------------------
@@ -774,7 +774,7 @@ Version 1.2
 | Unikālais identifikators | Long integer | BioAtslegas\_Elementi\_ID | 10 |  |  |
 | Atslēgas elementa apakštips | Long integer | BioAtslegas\_Elementi\_ST | 10 | 1 |  |
 | Sasaiste ar BIOTOPI | Long integer | Bio\_ID | 10 |  |  |
-| Atslēgas elementa veids | [VMD\_030\_Bioelementa\_Veidi\_I](#-biotopa-atslēgas-elementu-veidi--bez-apjoma---coded-value-domain) 1: Dažādvecuma audze; 2: Atvērumu vainaga klājā / lauces; 3: Pašizretināšanās; 4: Pastāvīgi pārplūstoši klajumi; 5: Īslaicīgi pārplūstoši klajumi; 6: Mirusi koksne dažās sadal. pakāpēs; 7: Mirusi koksne vairākās sadal. pakāpēs; 8: Daudz koksnes sēņu / piepju; 9: Daudz vecu lazdu;... | ElemV\_Type | 3 |  |  |
+| Atslēgas elementa veids | [VMD\_030\_Bioelementa\_Veidi\_I](#-biotopa-atslēgas-elementu-veidi-bez-apjoma--coded-value-domain) 1: Dažādvecuma audze; 2: Atvērumu vainaga klājā / lauces; 3: Pašizretināšanās; 4: Pastāvīgi pārplūstoši klajumi; 5: Īslaicīgi pārplūstoši klajumi; 6: Mirusi koksne dažās sadal. pakāpēs; 7: Mirusi koksne vairākās sadal. pakāpēs; 8: Daudz koksnes sēņu / piepju; 9: Daudz vecu lazdu;... | ElemV\_Type | 3 |  |  |
 | Atslēgas elementa apjoms | [VMD\_035\_Bioelementa\_Veida\_Apjoms](#-bioelementu-veida-apjomi--coded-value-domain) -1: Nav Zināms; 1: 1-5; 2: 6-10; 3: >10; 0: Nav definēts; | Apjoms\_Type | 3 |  |  |
 
   
@@ -1109,7 +1109,7 @@ Version 1.2
 | --- | --- |
 | Name in DB | VMD\_000\_Boolean |
 | Values | -1 - Nav zināms; 1 - Jā; 2 - Nē; 0 - Nav ievadīts;  |
-| Used in object classes: | Feature class:  [Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--feature-class) Feature class:  [Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--feature-class) Object class:  [Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--object-class)  |
+| Used in object classes: | Feature class:  [Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--feature-class) Object class:  [Biotopa apsaimniekošana](#-biotopa-apsaimniekošana--object-class) Feature class:  [Vides aizsardzības klasifikators](#-vides-aizsardzības-klasifikators--feature-class)  |
 
    
 
@@ -1330,7 +1330,7 @@ Version 1.2
 | --- | --- |
 | Name in DB | VMD\_180\_Koku\_Sugas |
 | Values | -1 - Nav zināms;  |
-| Used in object classes: | Object class:  [Biotopa atslēgas elementu sugas](#-biotopa-atslēgas-elementu-sugas--object-class) Object class:  [Biotopa audzes raksturojumi](#-biotopa-audzes-raksturojumi--object-class) Object class:  [Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--object-class)  |
+| Used in object classes: | Object class:  [Biotopa apsaimniekošana – izcērtama suga](#-biotopa-apsaimniekošana-–-izcērtama-suga--object-class) Object class:  [Biotopa audzes raksturojumi](#-biotopa-audzes-raksturojumi--object-class) Object class:  [Biotopa atslēgas elementu sugas](#-biotopa-atslēgas-elementu-sugas--object-class)  |
 
    
 
@@ -1356,7 +1356,7 @@ Version 1.2
 | --- | --- |
 | Name in DB | LVM\_MEDUS\_00003\_TreeSpecies |
 | Values | 1 - 01 - Priede; 3 - 03 - Egle; 4 - 04 - Bērzs; 6 - 06 - Melnalksnis; 8 - 08 - Apse; 9 - 09 - Baltalksnis; 10 - 10 - Ozols; 11 - 11 - Osis; 12 - 12 - Liepa; 13 - 13 - Lapegle; 14 - 14 - Citas priedes; 15 - 15 - Citas egles; 16 - 16 - Goba,vīksna; 17 - 17 - Dižskābardis; 18 - 18 - Skābardis; 19 - 19 - Papele; 20 - 20 - Vītols; 21 - 21 - Blīgzna; 22 - 22 - Ciedru priede; 23 - 23 - Baltegle; 24 - 24 - Kļava; 25 - 25 - Saldais ķirsis; 26 - 26 - Mežābele; 27 - 27 - Bumbiere; 28 - 28 - Duglāzija; 29 - 29 - Īve; 32 - 32 - Pīlādži; 35 - 35 - Ievas; 50 - 50 - Dzeltenā akācija; 61 - 61 - Citi ozoli; 62 - 62 - Citas liepas; 63 - 63 - Citas kļavas; 64 - 64 - Citi oši; 65 - 65 - Citas gobas, vīksnas; 66 - 66 - Riekstkoki; 67 - 67 - Zirgkastaņi; 68 - 68 - Hibrīdā apse;  |
-| Used in object classes: | Feature class:  [Ugunsgrēka vieta](#-ugunsgrēka-vieta--feature-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class) Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class) Feature class:  [Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--feature-class)  |
+| Used in object classes: | Feature class:  [Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--feature-class) Feature class:  [Ugunsgrēka vieta](#-ugunsgrēka-vieta--feature-class) Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class)  |
 
    
 
@@ -1382,7 +1382,7 @@ Version 1.2
 | --- | --- |
 | Name in DB | LVM\_00201\_LVMDistricts |
 | Values | kodi - Vērtības no slāņa LVMDistrict; ??? - ???;  |
-| Used in object classes: | Feature class:  [Ugunsgrēka vieta](#-ugunsgrēka-vieta--feature-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class) Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class) Feature class:  [Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--feature-class)  |
+| Used in object classes: | Feature class:  [Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--feature-class) Feature class:  [Ugunsgrēka vieta](#-ugunsgrēka-vieta--feature-class) Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class)  |
 
    
 
@@ -1395,7 +1395,7 @@ Version 1.2
 | --- | --- |
 | Name in DB | LVM\_00202\_LVMForestry |
 | Values | ! - Vērtības no slāņa LVMForestry; ? - ???;  |
-| Used in object classes: | Feature class:  [Ugunsgrēka vieta](#-ugunsgrēka-vieta--feature-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class) Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class) Feature class:  [Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--feature-class)  |
+| Used in object classes: | Feature class:  [Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--feature-class) Feature class:  [Ugunsgrēka vieta](#-ugunsgrēka-vieta--feature-class) Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class)  |
 
    
 
@@ -1473,7 +1473,7 @@ Version 1.2
 | --- | --- |
 | Name in DB | VMD\_093\_UgunsAtklType |
 | Values | 1 - No torņa; 2 - Ziņo trešā persona; 3 - Ziņo VUGD;  |
-| Used in object classes: | Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class) Object class:  [Ugunsgrēki](#-ugunsgrēki--object-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class)  |
+| Used in object classes: | Object class:  [Ugunsgrēki](#-ugunsgrēki--object-class) Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class)  |
 
    
 
@@ -1486,7 +1486,7 @@ Version 1.2
 | --- | --- |
 | Name in DB | VMD\_090\_Ugunsceloni |
 | Values | -1 - Nav zināms;  |
-| Used in object classes: | Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class) Object class:  [Ugunsgrēki](#-ugunsgrēki--object-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class)  |
+| Used in object classes: | Object class:  [Ugunsgrēki](#-ugunsgrēki--object-class) Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class)  |
 
    
 
@@ -1525,7 +1525,7 @@ Version 1.2
 | --- | --- |
 | Name in DB | VMD\_080\_Vertejums |
 | Values | -1 - Nav zināms; 1 - Zems; 2 - Vidējs; 3 - Augsts;  |
-| Used in object classes: | Feature class:  [Biotops](#-biotops--feature-class) Feature class:  [Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--feature-class)  |
+| Used in object classes: | Feature class:  [Biotopu koncentrācijas vieta](#-biotopu-koncentrācijas-vieta--feature-class) Feature class:  [Biotops](#-biotops--feature-class)  |
 
    
 
