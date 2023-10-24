@@ -1382,6 +1382,8 @@ Version 1.2
 | --- | --- |
 | Name in DB | LVM\_00201\_LVMDistricts |
 | Values | kodi - Vērtības no slāņa LVMDistrict; ??? - ???;  |
+||11 - Degums;
+||12 - Iznīkusi audze;
 | Used in object classes: | Feature class:  [Ugunsgrēka teritorija](#-ugunsgrēka-teritorija--feature-class) Feature class:  [Ugunsgrēka teritorijas skatījums](#-ugunsgrēka-teritorijas-skatījums--feature-class) Feature class:  [Ugunsgrēka vieta](#-ugunsgrēka-vieta--feature-class) Feature class:  [VMD Ugunsgrēka vietas skatījums](#-vmd-ugunsgrēka-vietas-skatījums--feature-class)  |
 
    
