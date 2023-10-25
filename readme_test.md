@@ -1430,10 +1430,10 @@ Kopējās elementu un objektu klases
 |  | 66 : 66 - Riekstkoki |
 |  | 67 : 67 - Zirgkastaņi |
 |  | 68 : 68 - Hibrīdā apse |
-| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
-|  | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
-|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
+| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
 |  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 
    
 
@@ -1477,10 +1477,10 @@ Kopējās elementu un objektu klases
 | Nosaukums DB | LVM\_00201\_LVMDistricts |
 | Vērtības | kodi : Vērtības no slāņa LVMDistrict |
 |  | ??? : ??? |
-| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
-|  | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
-|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
+| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
 |  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 
    
 
@@ -1494,10 +1494,10 @@ Kopējās elementu un objektu klases
 | Nosaukums DB | LVM\_00202\_LVMForestry |
 | Vērtības | ! : Vērtības no slāņa LVMForestry |
 |  | ? : ??? |
-| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
-|  | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
-|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
+| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
 |  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 
    
 
@@ -1597,8 +1597,8 @@ Kopējās elementu un objektu klases
 | Vērtības | 1 : No torņa |
 |  | 2 : Ziņo trešā persona |
 |  | 3 : Ziņo VUGD |
-| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
-|  | Objektu klase:  [Ugunsgrēki](#ugunsgrēki-objektu-klase)  |
+| Izmantots objektu klasēs: | Objektu klase:  [Ugunsgrēki](#ugunsgrēki-objektu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
 |  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 
    
@@ -1612,8 +1612,8 @@ Kopējās elementu un objektu klases
 | --- | --- |
 | Nosaukums DB | VMD\_090\_Ugunsceloni |
 | Vērtības | -1 : Nav zināms |
-| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
-|  | Objektu klase:  [Ugunsgrēki](#ugunsgrēki-objektu-klase)  |
+| Izmantots objektu klasēs: | Objektu klase:  [Ugunsgrēki](#ugunsgrēki-objektu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
 |  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 
    
@@ -1659,8 +1659,8 @@ Kopējās elementu un objektu klases
 |  | 1 : Zems |
 |  | 2 : Vidējs |
 |  | 3 : Augsts |
-| Izmantots objektu klasēs: | Elementu klase:  [Biotopu koncentrācijas vieta](#biotopu-koncentrācijas-vieta-elementu-klase)  |
-|  | Elementu klase:  [Biotops](#biotops-elementu-klase)  |
+| Izmantots objektu klasēs: | Elementu klase:  [Biotops](#biotops-elementu-klase)  |
+|  | Elementu klase:  [Biotopu koncentrācijas vieta](#biotopu-koncentrācijas-vieta-elementu-klase)  |
 
    
 
