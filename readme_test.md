@@ -79,6 +79,7 @@ Version 2.0.0
 * [Ugunsgrēku platību uzskaites tips](#ugunsgrēku-platību-uzskaites-tips-klasifikators)
 * [Vides aizsardzības ierobežojumu veidi](#vides-aizsardzības-ierobežojumu-veidi-klasifikators)
 * [Vērtējums](#vērtējums-klasifikators)
+  
  [Vērtību robežas](#Vērtību-robežas)  
 * [Procenti (0-100%)](#procenti-0-100-vērtību-robežas)
 
@@ -1054,8 +1055,8 @@ Klasifikatori
 |  | 1 : Jā |
 |  | 2 : Nē |
 |  | 0 : Nav ievadīts |
-| Izmantots objektu klasēs: | Elementu klase:  [Biotopu koncentrācijas vieta](#biotopu-koncentrācijas-vieta-elementu-klase)  |
-|  | Objektu klase:  [Biotopa apsaimniekošana](#biotopa-apsaimniekošana-objektu-klase)  |
+| Izmantots objektu klasēs: | Objektu klase:  [Biotopa apsaimniekošana](#biotopa-apsaimniekošana-objektu-klase)  |
+|  | Elementu klase:  [Biotopu koncentrācijas vieta](#biotopu-koncentrācijas-vieta-elementu-klase)  |
 |  | Elementu klase:  [Vides aizsardzības klasifikators](#vides-aizsardzības-klasifikators-elementu-klase)  |
 
    
@@ -1365,9 +1366,9 @@ Klasifikatori
 | --- | --- |
 | Nosaukums DB | VMD\_180\_Koku\_Sugas |
 | Vērtības | -1 : Nav zināms |
-| Izmantots objektu klasēs: | Objektu klase:  [Biotopa audzes raksturojumi](#biotopa-audzes-raksturojumi-objektu-klase)  |
-|  | Objektu klase:  [Biotopa atslēgas elementu sugas](#biotopa-atslēgas-elementu-sugas-objektu-klase)  |
+| Izmantots objektu klasēs: | Objektu klase:  [Biotopa atslēgas elementu sugas](#biotopa-atslēgas-elementu-sugas-objektu-klase)  |
 |  | Objektu klase:  [Biotopa apsaimniekošana – izcērtama suga](#biotopa-apsaimniekošana--izcērtama-suga-objektu-klase)  |
+|  | Objektu klase:  [Biotopa audzes raksturojumi](#biotopa-audzes-raksturojumi-objektu-klase)  |
 
    
 
@@ -1431,8 +1432,8 @@ Klasifikatori
 |  | 67 : 67 - Zirgkastaņi |
 |  | 68 : 68 - Hibrīdā apse |
 | Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
-|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 |  | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 |  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 
    
@@ -1478,8 +1479,8 @@ Klasifikatori
 | Vērtības | kodi : Vērtības no slāņa LVMDistrict |
 |  | ??? : ??? |
 | Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
-|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 |  | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 |  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 
    
@@ -1495,8 +1496,8 @@ Klasifikatori
 | Vērtības | ! : Vērtības no slāņa LVMForestry |
 |  | ? : ??? |
 | Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
-|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 |  | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 |  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 
    
@@ -1597,8 +1598,8 @@ Klasifikatori
 | Vērtības | 1 : No torņa |
 |  | 2 : Ziņo trešā persona |
 |  | 3 : Ziņo VUGD |
-| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
-|  | Objektu klase:  [Ugunsgrēki](#ugunsgrēki-objektu-klase)  |
+| Izmantots objektu klasēs: | Objektu klase:  [Ugunsgrēki](#ugunsgrēki-objektu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
 |  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 
    
@@ -1612,8 +1613,8 @@ Klasifikatori
 | --- | --- |
 | Nosaukums DB | VMD\_090\_Ugunsceloni |
 | Vērtības | -1 : Nav zināms |
-| Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
-|  | Objektu klase:  [Ugunsgrēki](#ugunsgrēki-objektu-klase)  |
+| Izmantots objektu klasēs: | Objektu klase:  [Ugunsgrēki](#ugunsgrēki-objektu-klase)  |
+|  | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
 |  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 
    
@@ -1659,8 +1660,8 @@ Klasifikatori
 |  | 1 : Zems |
 |  | 2 : Vidējs |
 |  | 3 : Augsts |
-| Izmantots objektu klasēs: | Elementu klase:  [Biotopu koncentrācijas vieta](#biotopu-koncentrācijas-vieta-elementu-klase)  |
-|  | Elementu klase:  [Biotops](#biotops-elementu-klase)  |
+| Izmantots objektu klasēs: | Elementu klase:  [Biotops](#biotops-elementu-klase)  |
+|  | Elementu klase:  [Biotopu koncentrācijas vieta](#biotopu-koncentrācijas-vieta-elementu-klase)  |
 
    
 
