@@ -44,7 +44,7 @@ Version 2.0.0
 * [Ugunsgrēku platības uzskaite](#ugunsgrēku-platības-uzskaite-objektu-klase)
 * [Vides aizsardzības ierobežojumi](#vides-aizsardzības-ierobežojumi-objektu-klase)
 * [RC\_BIO\_KONC\_LINK](#rc_bio_konc_link-relāciju-klase)
-###  [Klasifikatori](#Klasifikatori)
+### [Klasifikatori](#Klasifikatori)
 
 * [Augšanas apstākļu tipi](#augšanas-apstākļu-tipi-klasifikators)
 * [Bināra izvēle](#bināra-izvēle-klasifikators)
@@ -1026,8 +1026,8 @@ Kopējās elementu un objektu klases
 | ES Biotops | [VMD\_070\_Biotopi\_ES](#es-biotopa-tips-klasifikators) | Estips\_ID |  |  |  |
 
   
- -Klasifikatori-
-----------------
+Klasifikatori
+-------------
 
 ### Augšanas apstākļu tipi [Klasifikators]
 
@@ -1054,9 +1054,9 @@ Kopējās elementu un objektu klases
 |  | 1 : Jā |
 |  | 2 : Nē |
 |  | 0 : Nav ievadīts |
-| Izmantots objektu klasēs: | Elementu klase:  [Biotopu koncentrācijas vieta](#biotopu-koncentrācijas-vieta-elementu-klase)  |
+| Izmantots objektu klasēs: | Elementu klase:  [Vides aizsardzības klasifikators](#vides-aizsardzības-klasifikators-elementu-klase)  |
+|  | Elementu klase:  [Biotopu koncentrācijas vieta](#biotopu-koncentrācijas-vieta-elementu-klase)  |
 |  | Objektu klase:  [Biotopa apsaimniekošana](#biotopa-apsaimniekošana-objektu-klase)  |
-|  | Elementu klase:  [Vides aizsardzības klasifikators](#vides-aizsardzības-klasifikators-elementu-klase)  |
 
    
 
@@ -1366,8 +1366,8 @@ Kopējās elementu un objektu klases
 | Nosaukums DB | VMD\_180\_Koku\_Sugas |
 | Vērtības | -1 : Nav zināms |
 | Izmantots objektu klasēs: | Objektu klase:  [Biotopa apsaimniekošana – izcērtama suga](#biotopa-apsaimniekošana--izcērtama-suga-objektu-klase)  |
-|  | Objektu klase:  [Biotopa atslēgas elementu sugas](#biotopa-atslēgas-elementu-sugas-objektu-klase)  |
 |  | Objektu klase:  [Biotopa audzes raksturojumi](#biotopa-audzes-raksturojumi-objektu-klase)  |
+|  | Objektu klase:  [Biotopa atslēgas elementu sugas](#biotopa-atslēgas-elementu-sugas-objektu-klase)  |
 
    
 
@@ -1431,8 +1431,8 @@ Kopējās elementu un objektu klases
 |  | 67 : 67 - Zirgkastaņi |
 |  | 68 : 68 - Hibrīdā apse |
 | Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
-|  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 |  | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
+|  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 |  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 
    
@@ -1478,8 +1478,8 @@ Kopējās elementu un objektu klases
 | Vērtības | kodi : Vērtības no slāņa LVMDistrict |
 |  | ??? : ??? |
 | Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
-|  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 |  | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
+|  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 |  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 
    
@@ -1495,8 +1495,8 @@ Kopējās elementu un objektu klases
 | Vērtības | ! : Vērtības no slāņa LVMForestry |
 |  | ? : ??? |
 | Izmantots objektu klasēs: | Elementu klase:  [Ugunsgrēka vieta](#ugunsgrēka-vieta-elementu-klase)  |
-|  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 |  | Elementu klase:  [Ugunsgrēka teritorijas skatījums](#ugunsgrēka-teritorijas-skatījums-elementu-klase)  |
+|  | Elementu klase:  [VMD Ugunsgrēka vietas skatījums](#vmd-ugunsgrēka-vietas-skatījums-elementu-klase)  |
 |  | Elementu klase:  [Ugunsgrēka teritorija](#ugunsgrēka-teritorija-elementu-klase)  |
 
    
